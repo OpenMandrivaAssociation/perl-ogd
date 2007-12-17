@@ -15,7 +15,6 @@ Source:         http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/%{module}-
 BuildRequires:  perl-devel
 %endif
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This module adds ordered destruction of objects stored in global variables in
