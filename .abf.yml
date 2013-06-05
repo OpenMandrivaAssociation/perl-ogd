@@ -1,2 +1,4 @@
+removed_sources:
+  ogd-0.02.tar.bz2: 094eb24bce05f4ccfa2ca2b50f79f135454afb3c
 sources:
-  "ogd-0.02.tar.bz2": 094eb24bce05f4ccfa2ca2b50f79f135454afb3c
+  ogd-0.03.tar.gz: faadf3177b0b1e3dab9bfb6dcee54b32b05dffda

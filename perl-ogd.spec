@@ -1,13 +1,13 @@
 %define module  ogd
 
 Name:		perl-%{module}
-Version:	0.02
-Release:	7
+Version:	%perl_convert_version 0.03
+Release:	1
 Summary:	Ordered global destruction of objects stored in globals
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
-Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/%{module}-%{version}.tar.bz2
+Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/ogd-0.03.tar.gz
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
@@ -61,4 +61,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Mar 23 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.02-1mdk
 - first mdk release
+
 
