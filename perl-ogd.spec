@@ -1,13 +1,14 @@
 %define module  ogd
+%define upstream_version 0.03
 
 Name:		perl-%{module}
-Version:	0.02
-Release:	7
+Version:	%perl_convert_version 0.03
+Release:	1
 Summary:	Ordered global destruction of objects stored in globals
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}
-Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/%{module}-%{version}.tar.bz2
+Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/ogd-0.03.tar.gz
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
@@ -20,7 +21,7 @@ variables (even if they are in file scope). Apparently Perl destroys all
 objects stored file-level lexicals before the first END block is called.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{module}-%{upstream_version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -61,4 +62,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Mar 23 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.02-1mdk
 - first mdk release
+
 
