@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version 0.03
-Release:	2
+Release:	3
 Summary:	Ordered global destruction of objects stored in globals
 License:	GPL or Artistic
 Group:		Development/Perl
