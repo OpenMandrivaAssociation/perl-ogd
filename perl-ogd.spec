@@ -7,7 +7,7 @@ Release:	3
 Summary:	Ordered global destruction of objects stored in globals
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{module}
+Url:		https://search.cpan.org/dist/%{module}
 Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/ogd-0.03.tar.gz
 BuildRequires:	perl-devel
 BuildArch:	noarch
