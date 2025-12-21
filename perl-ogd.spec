@@ -9,6 +9,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{module}
 Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/ogd-0.03.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
