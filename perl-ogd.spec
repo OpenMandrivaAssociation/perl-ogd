@@ -1,14 +1,14 @@
 %define module  ogd
-%define upstream_version 0.03
+%define upstream_version 0.05
 
 Name:		perl-%{module}
-Version:	%perl_convert_version 0.03
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Summary:	Ordered global destruction of objects stored in globals
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{module}
-Source:		http://search.cpan.org/CPAN/authors/id/E/EL/ELIZABETH/ogd-0.03.tar.gz
+Url:		https://metacpan.org/dist/ogd
+Source:		https://cpan.metacpan.org/authors/id/L/LN/LNATION/ogd-0.05.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
